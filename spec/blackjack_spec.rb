@@ -60,6 +60,17 @@ describe "#end_game" do
   end
 end
 
+#describe "#get_user_input" do
+ # it "returns the value of a `gets.chomp` method" do
+  #  ["h", "s", "exit"].each do |string|
+   #   with_stdin do |user|
+    #    user.puts string
+     #   expect(get_user_input).to eq(string)
+      #end
+    #end
+  #end
+#end
+
 describe "#hit?" do
   before(:each) do
     def get_user_input
